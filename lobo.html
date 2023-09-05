@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil Lobo</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="shortcut icon" href="img/ico.png" type="image/x-icon">
+
+</head>
+<body>
+
+<section>
+
+    <form action="#" class="login">
+
+        <div class="flex div">
+            <h1>Perfil Lobo</h1>
+            <img src="image-removebg-preview.png">
+        </div>
+
+        <div class="flexd">
+            <h1 id="resultado"></h1>
+        
+            <h3><p>O Lobo tem como característica principal <u><i>“fazer certo”</i></u>. Pessoas com esse perfil são <br>
+                detalhistas e organizadas, não dando um passo sem pensar na estratégia. São pontuais, <br>
+                responsáveis, metódicos e prezam pela consistência, conformidade e qualidade. Por isso, <br>
+                tem dificuldades em se adaptar a mudanças e podem impedir o progresso por pensar <br>
+                demasiadamente nos detalhes. Esses indivíduos têm a certeza e compreensão exata de quais <br>
+                são as regras, buscam o conhecimento específico do trabalho. Seu objetivo é ver o produto <br>
+                acabado, começo, meio e fim com ausência de riscos e erros.<br>
+            </p>
+
+            <p><u><i>Pontos Fortes:</i></u> Pensar em longo prazo, Cumprir com as regras e responsabilidades.<br>
+               <u><i>Pontos de Melhoria:</i></u> Dificuldades de se adaptar às mudanças, Pode impedir o progresso.<br>
+               <u><i>Valores:</i></u> Ordem e Controle.
+            </p></h3>
+        </div>
+
+        
+    </form>
+
+</section>   
+<script>
+    document.getElementById("resultado").innerHTML = localStorage.getItem('porcLobo');
+</script>  
+ 
+</body>
+</html>
